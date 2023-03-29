@@ -11,14 +11,14 @@
 <div class="container">
     <form method="POST" th:action="@{/todos/create}" th:object="${newTodo}">
        <div class="form-group">
-           <label>Zadanie</label>
+           <label th:text="#{todo.zadanie}">Zadanie</label>
            <input class="form-control" type="text" th:field="*{zadanie}">
        </div>
         <div class="form-group">
-            <label>Termin</label>
+            <label th:text="#{todo.termin}">Termin</label>
             <input class="form-control" type="date" th:field="*{termin}">
         </div>
-        <input class="form-control btn btn-primary" type="submit" value="Stworz">
+        <input class="form-control btn btn-primary" type="submit" th:value="#{button.stworz}">
     </form>
 </div>
 </body>
