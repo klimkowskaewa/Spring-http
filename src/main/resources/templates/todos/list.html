@@ -27,7 +27,7 @@
                 <td th:text="${t.getId()}"></td>
                 <td th:text="${t.getZadanie()}"></td>
                 <td th:text="${t.getTermin()}"></td>
-                <td th:text="${t.getStatus()}"></td>
+                <td th:style="'color: ' + ${@todoUtils.color(t.getStatus())}" th:text="${t.getStatus()}"></td>
                 <td>
                     <div>
                         <a th:unless="${t.getStatus().name().equals('NEW')}" class="btn btn-success" th:href="@{/todos/update(id=${t.getId()}, status = 'NEW')}">Przenies do NEW</a>
