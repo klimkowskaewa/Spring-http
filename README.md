@@ -2,27 +2,8 @@
 
 Spring-http repository contains files created to practice Spring. 
 
-- @SpringBootApplication
-- @Override
-- @Bean
-- @Component
-- @Configuration
-- @Autowired
-- @Qualifier
-- @Scope
-- @Profile
-- @Primary
-- @ConfigurationProperties
-- @EnableConfigurationProperties
-- @RestController
-- @Service
-- @RequestMapping
-- @GetMapping
-- @PostMapping
-- @PutMapping
-- @PatchMapping
-- @DeleteMapping
-- @PathVariable
-- @RequestParam
-- @RequestHeader
-- @RequestBody
+- [to do](https://github.com/klimkowskaewa/Spring-http/tree/master/src/main/java/pl/edu/wszib/http2/todo): @Service, @Autowired, @Controller, @GetMapping, @PostMapping, @RequestMapping, @RequestParam
+
+
+
+- [controller](https://github.com/klimkowskaewa/Spring-http/tree/master/src/main/java/pl/edu/wszib/http2/controller): @RestController, @RequestMapping, @PostMapping, @RequestParam, @GetMapping, @Controller, @Autowired, @ExceptionHandler, @ResponseBody 
